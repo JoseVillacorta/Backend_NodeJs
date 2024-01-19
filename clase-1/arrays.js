@@ -38,4 +38,4 @@ var  fecha = "19/01/2024";
 var arregloFecha = fecha.split("/");
 console.log(arregloFecha);  
 console.log(arregloFecha.join("/"));  
-console.log(arregloFecha);  
+
