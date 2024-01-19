@@ -19,8 +19,10 @@ do {
 console.log("despues del while");
 
 //for
+num=10
 console.log("antes del for");
 for(var i=0; i<num; i++){
     console.log("dentro del for"+i);
 }
 console.log("despues del while");
+
