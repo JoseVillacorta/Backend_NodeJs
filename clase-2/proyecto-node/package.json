@@ -13,8 +13,5 @@
     "proyecto"
   ],
   "author": "@JoseVillacorta",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "license": "MIT"
 }
