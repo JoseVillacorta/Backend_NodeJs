@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Mi segunda Clase - Eventos</title>
+        <title>Mi Segunda Clase - Eventos</title>
         <style type="text/css">
             div{
                 background-color: blue;
@@ -9,37 +9,25 @@
             }
         </style>
     </head>
+        
     <body>
-        
         <h1>Clase 2 - Eventos</h1>
-
-        <button name="boton" onclick="hiceClick()" >Clickeame</button> 
-
-        <div onmouseover="hiceClick()">
-        </div>
         
-        <input type="text" name="Nombre" id="idNombre">
-        
-        <script type="text/javascript">
-
-            function hiceClick(){
-                alert("Hice click");
+        <button name = "boton" onclick="hiceClick()">Clickeame</button>
+        <div onmouseover="hiceClick()"></div>
+        <input type="text" name="Nombre" id = "idNombre"/>
+        <script type ="text/javascript">
+            function hiceClick() {
+                alert("hice Click")
             }
-
             var objeto = document.getElementById("idNombre");
             console.log(objeto);
-
             objeto.addEventListener("focus", function(){
-                console.log("Hice focus");
+                console.log("hice focus");
             })
             objeto.addEventListener("blur", function(){
-                console.log("Hice blur");
+                console.log("hice blur");
             })
-
-
-            
         </script>
     </body>
-
-
 </html>
